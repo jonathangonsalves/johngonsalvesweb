@@ -1,0 +1,174 @@
+.main{
+  position: relative;
+  min-height: 100vh;
+}
+
+.maintext{
+  position: absolute;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+#section1 p {
+  font-size: 50px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  left: 17%;
+  color: black;
+  position: relative;
+}
+
+
+#section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 10%;  
+  vertical-align: middle;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin: 10px auto; */
+    gap: 4rem;
+}
+
+#a{
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+#a:hover{
+  transform: scale(1.1);
+}
+
+.Cards{
+  width: 20rem;
+  height: 6rem;
+  max-width: 40rem;
+  min-height: 10px;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: transform .2s;
+  color: black;
+}
+
+.Cards:hover{
+  transform: scale(1.2);
+}
+
+#linkedin{
+  background: linear-gradient(to right, #0866C2, #044d96);
+}
+#github{
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  transition: transform .2s;
+}
+#instagram{
+  background: linear-gradient(to right, #8e2de2, #e2c72d);
+}
+#youtube{
+  background: linear-gradient(to right, blue, red);
+}
+
+#h2 {
+  font-size: 150%;
+  color: black;
+  margin-top: 10px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  transition: transform .2s;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+}
+
+.username {
+  max-width: 80%;
+  text-align: center;
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 90%;
+  color: black;
+  margin-top: 0px;
+  font-weight: lighter;
+  transition: transform .5s;
+  position: relative;  
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  max-width: 40rem;
+  min-height: 50px;
+}
+
+.container {
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: row; */
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image {
+  margin-top: -3vh;
+  width: 300px;
+  height: 300px;  
+  display: flex;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .Cards{
+    width: 10rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .image {
+    visibility: hidden;
+    display: none;
+  }  
+
+  #section2 {
+    padding-top: 20%;
+    padding: 40%;
+    justify-content: space-around;
+  }
+
+  #section1 p {
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Roboto Mono", monospace;
+    text-align: start;
+    left: 7%;
+    right: 10%;
+    color: black;
+    position: relative;
+  }    
+}

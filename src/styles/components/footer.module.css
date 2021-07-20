@@ -1,0 +1,29 @@
+.cfooter {
+    padding: 32px 0;
+    margin-top: 40px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;      
+  }
+  
+  .ogrid {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ogridcol {
+    -webkit-box-flex: initial;
+    -ms-flex-positive: initial;
+    flex-grow: initial;
+    width: 100%;
+  }
+  
+  .cfootercopy {
+    color: var(--color-text-secondary);
+    font-size: 12px;
+    line-height: 16px;
+  }

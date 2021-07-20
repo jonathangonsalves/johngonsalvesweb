@@ -9,8 +9,18 @@
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
+    "gray-matter": "^4.0.3",
     "next": "10.0.7",
+    "raw-loader": "^4.0.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-markdown": "^6.0.2",
+    "react-player": "^2.9.0",
+    "typed.js": "^2.0.11"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
